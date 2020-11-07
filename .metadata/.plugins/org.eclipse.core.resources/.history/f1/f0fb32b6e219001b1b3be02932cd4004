@@ -1,0 +1,16 @@
+package Kollektivtrafik;
+
+public class Biljett {
+	
+	
+	String Tågbiljett1 = "Månadskort";
+	
+	String Tågbiljett2 = "Enkelbiljett";
+	
+	
+	
+	public void
+	
+	
+
+}

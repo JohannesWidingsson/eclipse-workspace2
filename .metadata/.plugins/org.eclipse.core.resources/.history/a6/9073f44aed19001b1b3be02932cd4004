@@ -1,0 +1,62 @@
+package Kollektivtrafik;
+
+import java.util.Scanner;
+
+public class Bussbiljett {
+
+	public static void main(String[] args) {
+		
+		Scanner scan = new Scanner(System.in);
+		
+		
+		
+		Biljett biljett = new Biljett ();
+		
+	
+		
+	
+		
+		
+		int Enkelbiljett = scan.nextInt();
+		
+		
+		System.out.println("Hur gammal är du? ");
+		
+		 x = scan.nextInt();
+		
+		 	int x;
+		  int y = 18;
+		 int z = 65;
+		 
+		
+		 
+		 if(x == y) {
+			 System.out.println("Om du är 18 år eller yngre så kostar biljetten " + biljett.enkelbiljettunder, + biljett.månadsbiljettunder );
+		
+		
+		
+
+	}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
+	
+	
+		
+		
+		
+		
+
+	
+
+}	
+
+}

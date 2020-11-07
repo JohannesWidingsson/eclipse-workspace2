@@ -1,0 +1,9 @@
+package exampel;
+
+//En klass innan det blir objekt
+//Vi ska skapa en ritning för objekten
+//Ritningen på huset men det är inte huset.
+
+public class House {
+
+}

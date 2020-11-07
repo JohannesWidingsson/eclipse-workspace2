@@ -1,0 +1,41 @@
+package trainstation;
+
+public  class  Conductor extends Person {
+
+	
+	
+	
+	public void showAmount() {
+		
+		personName = scanPeople.next();
+		personList.add(personName);
+		System.out.println(personList);
+		people = scanPeople.nextInt();
+		
+		
+		switch(people) {
+		
+		case 1:
+			System.out.println();
+			break;
+			
+		case 2:
+			System.out.println();
+			break;
+			
+		case 3:
+			System.out.println();
+			break;
+			
+			default:
+		
+		
+		
+		
+		
+		}
+		
+		
+	}
+	
+}

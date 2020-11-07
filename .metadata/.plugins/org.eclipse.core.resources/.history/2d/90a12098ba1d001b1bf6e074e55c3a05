@@ -1,0 +1,47 @@
+package exception;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	System.out.println("Välkommen till hela detta programmet! ");
+		
+		
+		
+		
+		
+		try {
+			
+			
+		String[]name = {"Anna " , "Johan"};
+		
+		System.out.println(name[2]);
+		
+		
+		
+	       }  catch (ArrayIndexOutOfBoundsException e){
+	    	   
+	    	   System.out.println("Detta är Array Exception ");
+	        	 
+	        	 
+	        	 
+	        
+		
+		
+			 } catch  (Exception e) {
+				 System.out.println("Opps nåt gick fel");
+			
+		
+		}
+		
+	
+
+		System.out.println("hoppas du har haft det bra");
+		
+		
+	}
+
+}

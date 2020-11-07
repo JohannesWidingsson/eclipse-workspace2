@@ -1,0 +1,71 @@
+package Cars;
+
+import java.util.ArrayList;
+
+public class Lager {
+	
+	ArrayList<String> Cars = new ArrayList<>();
+	
+	
+	String car = "Bmw";
+	String car2 = "Volvo";
+	String car3 = "Mercedes";
+	String car4 = "Audi";
+	String car5 = "Saab";
+	String car6 = "Volkswagen";
+	String car7 = "Ferrari";
+	String car8 = "Mazda";
+	String car9 = "Toyota";
+	String car10 = "Nissan";
+	
+	
+	int carNumber = 300;
+	int carNumber2 = 110;
+	int carNumber3= 220;
+	int carNumber4 = 460;
+	int carNumber5 = 99;
+	int carNumber6 = 122;
+	int carNumber7 = 960;
+	int carNumber8 = 170;
+	int carNumber9 = 99;
+	int carNumber10 = 150;
+	
+	String carcolor = "Blå";
+	String carcolor2 = "Röd";
+	String carcolor3 = "Svart";
+	String carcolor4 = "Vit";
+	String carcolor5 = "Rosa";
+	String carcolor6 = "Gul";
+	String carcolor7 = "Mörk grön";
+	String carcolor8 = "Grå";
+	String carcolor9 = "Marin blå";
+	String carcolor10 = "Chrome";
+	
+	
+	
+	
+	
+	
+	
+public void showCar() {
+	
+	
+	
+	System.out.println("Vår " + car + " Har " + carNumber + " hästkrafter " + carcolor);
+	System.out.println("Vår " + car2 + " Har " + carNumber2 + " hästkrafter " + carcolor2);
+	System.out.println("Vår " + car3 + " Har " + carNumber3 + " hästkrafter " + carcolor3);
+    System.out.println("Vår " + car4 + " Har " + carNumber4 + " hästkrafter " + carcolor4);
+    System.out.println("Vår " + car5 + " Har " + carNumber5 + " hästkrafter " + carcolor5);
+    System.out.println("Vår " + car6 + " Har " + carNumber6 + " hästkrafter " + carcolor6);
+    System.out.println("Vår " + car7 + " Har " + carNumber7 + " hästkrafter " + carcolor7);
+    System.out.println("Vår " + car8 + " Har " + carNumber8 + " hästkrafter " + carcolor8);
+    System.out.println("Vår " + car9 + " Har " + carNumber9 + " hästkrafter " + carcolor9);
+    System.out.println("Vår " + car10 + " Har " + carNumber10 + " hästkrafter " + carcolor10);
+    
+    
+}
+
+	
+
+
+}

@@ -1,0 +1,52 @@
+package trainstation;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public abstract class Person {
+	
+	
+	String personName;
+	int personAge;
+	int personAmount;
+	int people;
+	
+	ArrayList<String> personList = new ArrayList<>();
+	
+	Scanner scanPeople = new Scanner(System.in);
+	
+	public void showAmount() {
+		
+		personName = scanPeople.next();
+		personList.add(personName);
+		System.out.println(personList);
+		people = scanPeople.nextInt();
+		
+		
+		switch(people) {
+		
+		case 1:
+			System.out.println();
+			break;
+			
+		case 2:
+			System.out.println();
+			break;
+			
+		case 3:
+			System.out.println();
+			break;
+			
+			
+			default:
+		
+		
+		}
+		
+		
+
+		
+	}
+	
+	
+}

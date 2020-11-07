@@ -1,0 +1,43 @@
+package handle;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner scan = new Scanner(System.in);
+        String[] meny = {"Ta ut pengar", "Sätta in pengar", "Se kontoutdrag", "Ladda ner" };
+        System.out.println("Välj 1 för att ta ut pengar, 2 för att sätta in pengar, 3 för att se kontoutdrag");
+        int choice = scan.nextInt();
+
+        switch(choice){
+            case 1:
+                System.out.println(meny[1]);
+                break;
+            case 2:
+                System.out.println(meny[2]);
+                break;
+            case 3:
+                System.out.println(meny[3]);
+                break;
+            case 4: 
+            	System.out.println(meny[4]);
+            	break;
+        }
+        
+
+        System.out.println("Tryck 1 för att logga in");
+        int login = scan.nextInt();
+        switch (login){
+            case 1:
+                Scanner scanner = new Scanner(System.in);
+                System.out.println("Skriv in din kod");
+                int pin = scanner.nextInt();
+                Login.login(pin);
+        }
+    }
+
+
+}
+

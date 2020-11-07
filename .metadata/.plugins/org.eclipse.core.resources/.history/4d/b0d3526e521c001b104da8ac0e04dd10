@@ -1,0 +1,26 @@
+package Cars;
+
+public class Lager {
+	
+	
+	String car = "Bmw";
+	String car2 = "Volvo";
+	String car3 = "Mercedes";
+	String car4 = "Audi";
+	String car5 = "Saab";
+	String car6 = "Volkswagen";
+	String car7 = "Ferrari";
+	String car8 = "Mazda";
+	String car9 = "Toyota";
+	String car10 = "Nissan";
+	
+	
+	
+	
+public void showCar() {
+	
+	
+}
+	
+
+}

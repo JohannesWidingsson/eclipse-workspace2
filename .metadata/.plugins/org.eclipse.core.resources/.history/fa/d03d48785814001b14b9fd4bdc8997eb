@@ -1,0 +1,8 @@
+package exampel;
+
+public class Tempel {
+
+	
+	int price;
+	
+}

@@ -1,28 +1,36 @@
 package trainstation;
 
+import java.util.Scanner;
+
 public class Main {
 
 	public static void main(String[] args) {
 		
-		Conductor person1 = new Conductor();
+		//Vi beh√∂ver en scanner f√∂r att mata in v√§rden 
+		Scanner scan  = new Scanner(System.in);
+		String name = scan.next();
+		int price = scan.nextInt()
+;		int age = scan.nextInt();
+		String ticket = scan.next();
+		String Card = scan.next();
 		
 		
+		Person person =  new Person(name, age);
+		Ticket tickets = new Ticket(price, ticket, Card);
+		Ticket tickets1 = new Ticket(35, ticket, Card);
 		
+		if(age <= 18) {
+			System.out.println(tickets.price);
+			
+		}
+		else if( age > 65){
+			
+		}
 		
-		//Anv‰ndaren komme rin och kan v‰lja mella 1. kˆp biljett 2 visa lista
+		else {
+			
+		}
 		
-		//switch()
-		//case 1
-		//case2
-	
-	
-		
-		
-		
-		
-		
-		person1.showAmount();
-	
 
 	}
 

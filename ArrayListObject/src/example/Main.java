@@ -19,7 +19,7 @@ public class Main {
 		//personlist.add(new person(Person (37, "Hemma" "Sandra"))
 		
 		
-
+		  System.out.println(personlist);
 	}
 
 }

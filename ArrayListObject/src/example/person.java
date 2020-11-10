@@ -2,7 +2,7 @@ package example;
 
 public class person {
 	
-	// Skapa en person med attribut ålder , adress , namn
+	// Skapa en person med attribut ï¿½lder , adress , namn
 	//Skapa en konstruktor
 	//Skapa 4 personer av objektet person
 	
@@ -36,6 +36,14 @@ public class person {
 	}
 	public void setName(String name) {
 		this.name = name;
+	
+	
+	
+	
+	}
+	@Override
+	public String toString() {
+		return "person [age=" + age + ", adress=" + adress + ", name=" + name + "]";
 	}
 
 

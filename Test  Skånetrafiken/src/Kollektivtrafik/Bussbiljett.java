@@ -14,7 +14,7 @@ public class Bussbiljett {
 		
 	
 		
-		System.out.println("Hur gammal är du? ");
+		System.out.println("Hur gammal Ã¤r du? ");
 		
 		
 	
@@ -34,15 +34,15 @@ public class Bussbiljett {
 		 
 		 if(x<= y) { 
 		
-			 System.out.println("Om du är 18 år eller yngre så kostar  Enkelbiljetten " + biljett.enkelbiljettunder +  " Kr ");
-			 System.out.println(" Vi har även Månadsbiljett som kostar " + biljett.månadsbiljettunder + " kr ");
+			 System.out.println("Om du ï¿½r 18 Ã¥r eller yngre sÃ¥ kostar  Enkelbiljetten " + biljett.enkelbiljettunder +  " Kr ");
+			 System.out.println(" Vi har ï¿½ven Mï¿½nadsbiljett som kostar " + biljett.mÃ¥nadsbiljettunder + " kr ");
 		}	
 			 	
 
 	 else if(z <= x ) {
 		 
-		 System.out.println("För dig som är 65 år eller äldre kostar bijetten. " + biljett.enkelbiljettunder + " Kr ");
-		 System.out.println("Och måndaskortet kostar. " + biljett.månadsbiljettunder + " Kr ");
+		 System.out.println("Fï¿½r dig som ï¿½r 65 Ã¥reller Ã¥ldre kostar bijetten. " + biljett.enkelbiljettunder + " Kr ");
+		 System.out.println("Och mï¿½ndaskortet kostar. " + biljett.mÃ¥nadsbiljettunder + " Kr ");
 		 
 		 
 	 }
@@ -51,8 +51,8 @@ public class Bussbiljett {
 	 else  {
 		 
 		 
-		 System.out.println("Du som är 19 år eller äldre kostar biljetten " + biljett.enkelbiljettöver);
-		 System.out.println("Och månadskortet kostar " + biljett.måndasbiljettöver);
+		 System.out.println("Du som ï¿½r 19 ï¿½r eller ï¿½ldre kostar biljetten " + biljett.enkelbiljettÃ¶ver);
+		 System.out.println("Och mï¿½nadskortet kostar " + biljett.mÃ¥ndasbiljettÃ¶ver);
 		 
 	 }	
 	

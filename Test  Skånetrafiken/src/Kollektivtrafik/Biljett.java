@@ -3,13 +3,13 @@ package Kollektivtrafik;
 public class Biljett {
 	
 	
-      String måndaskort = "Måndaskort";
+      String mÃ¥ndaskort = "MÃ¥ndaskort";
       String enkelbiljett = "Enkelbiljett";
       
       int enkelbiljettunder = 20;
-      int månadsbiljettunder = 450;
-      int enkelbiljettöver = 35;
-      int måndasbiljettöver = 600;
+      int mÃ¥nadsbiljettunder = 450;
+      int enkelbiljettÃ¶ver = 35;
+      int mÃ¥ndasbiljettÃ¶ver = 600;
 	
 	
 	public void showTicket() { }

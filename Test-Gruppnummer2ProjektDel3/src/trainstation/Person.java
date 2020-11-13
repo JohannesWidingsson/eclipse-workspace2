@@ -10,12 +10,12 @@ public abstract class Person {
 	String personName;
 	int personAge;
 	
-	/*int personAmount;
+	int personAmount;
 	int people;
 	int y;
 	int x;
 	int g;
-	int a;*/
+	int a;
 	
 	
 	ArrayList<String> personList = new ArrayList<>();
@@ -25,14 +25,14 @@ public abstract class Person {
 	
 
 		//Vi vill skapa en metod som skapar en biljett
-	//metoden ska inte retunera nåt - void
+	//metoden ska inte retunera nï¿½t - void
 	//Metoden ska heta buyTicket
-	//ticket ska läggas i en arrayList
-	//Arraylistan ska då lagra tickets objekt
+	//ticket ska lï¿½ggas i en arrayList
+	//Arraylistan ska dï¿½ lagra tickets objekt
 	public void buyTicket() {
 		//getname
 		//getage
-		//från personklassen 
+		//frï¿½n personklassen 
 		
 		
 	}

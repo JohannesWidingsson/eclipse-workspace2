@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class Ticket {
 	
+	
+
+
 	int price;
 	String name;
 	int age;
@@ -55,7 +58,10 @@ public class Ticket {
 	}
 
 
-
+@Override
+	public String toString() {
+		return "Ticket [price=" + price + ", name=" + name + ", age=" + age + ", tickets=" + tickets + "]";
+	}
 	
 }
 

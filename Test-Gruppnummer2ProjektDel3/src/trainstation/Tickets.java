@@ -3,9 +3,9 @@ package trainstation;
 import java.util.Scanner;
 
 public  class Tickets {
-	/*
+	
 	 String ticket = "Enkelbiljett";
-	 String monthlyCard = "Månadskort";
+	 String monthlyCard = "Mï¿½nadskort";
 	 int TicketsUnder = 20;
      int MonthlyUnder = 450;
      int Ticketover = 35;
@@ -19,7 +19,7 @@ public  class Tickets {
 		
 		
 		
-		*/
+	
 		
 		
 	

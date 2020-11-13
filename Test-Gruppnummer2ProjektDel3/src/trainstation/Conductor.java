@@ -20,7 +20,7 @@ public  class  Conductor extends Person {
 		
 		
 		case 1:
-			System.out.println("Ungdomsbiljett kostar 20kr f�r enkelbiljett och 450kr för månadskort\n Tryck 1 igen f�r att köpa enkelbiljett\n Tryck 2 igen f�r att köpa månadskort ");
+			System.out.println("Ungdomsbiljett kostar 20kr för enkelbiljett och 450kr för månadskort\n Tryck 1 igen för att köpa enkelbiljett\n Tryck 2 igen för att köpa månadskort ");
 
 		y = scanPeople.nextInt();
 		  switch (y) {  
@@ -34,7 +34,7 @@ public  class  Conductor extends Person {
 			break;
 			
 		case 2:
-				System.out.println("Vuxenbiljett kostar 35kr och månadskortet kostar 600kr\n Tryck 1 igen f�r att k�pa enkelbiljett\n Tryck 2 igen f�r att köpa månadskort ");
+				System.out.println("Vuxenbiljett kostar 35kr och månadskortet kostar 600kr\n Tryck 1 igen f�r att köpa enkelbiljett\n Tryck 2 igen för att köpa månadskort ");
 				
 				x = scanPeople.nextInt();
 		
@@ -51,7 +51,7 @@ public  class  Conductor extends Person {
 			break;
 			
 		case 3:
-			System.out.println("För dig som är pensionär så kostar biljetten 20kr och månadskort för 450kr\n Tryck 1 igen för att köpa enkelbiljett\n Tryck 2 igen f�r att köpa månadskort ");
+			System.out.println("För dig som är pensionär så kostar biljetten 20kr och månadskort för 450kr\n Tryck 1 igen för att köpa enkelbiljett\n Tryck 2 igen för att köpa månadskort ");
 		g = scanPeople.nextInt();
 			switch (g) {
 			case 1: System.out.println("Hej Sten din enkelbiljett kostar 20kr");

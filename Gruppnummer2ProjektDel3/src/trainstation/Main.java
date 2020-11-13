@@ -11,8 +11,6 @@ public class Main {
 		
 		String name = scan.next();
 		int age = scan.nextInt();
-		//String ticket = scan.next();
-		//String card = scan.next();
 		int price = scan.nextInt();
 		Ticket tickets = new Ticket();
 		
